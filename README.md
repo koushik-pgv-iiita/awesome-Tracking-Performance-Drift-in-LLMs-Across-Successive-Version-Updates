@@ -10,13 +10,10 @@ This repository curates research and resources on **performance drift in large l
 - [AI-Assisted Research Paper](#ai-assisted-research-paper)
 - [Citation Integrity Audit](#citation-integrity-audit)
 - [Curated Research Papers](#curated-research-papers)
-- [Datasets](#datasets)
 - [Tools and Libraries](#tools-and-libraries)
-- [GitHub Implementations](#github-implementations)
-- [Tutorials and Learning Resources](#tutorials-and-learning-resources)
 - [Repository Structure](#repository-structure)
 - [Contributing](#contributing)
-- [License](#license)
+
 ## Topic Overview
  
 Large language models accessed through commercial APIs (e.g., OpenAI, Anthropic, Google) are updated continuously — through fine-tuning, RLHF, safety tuning, quantization, and system-prompt changes — often without public disclosure of when or how. Because these updates occur behind a stable model name or endpoint, the "same" model can behave very differently from one week to the next, a phenomenon researchers call **performance drift**. This matters for at least three reasons: production applications built on LLMs can silently break when output format or refusal behavior changes; published evaluations of a named model may not be reproducible after a later update; and apparent performance "improvements" across versions can reflect benchmark contamination rather than genuine capability gains.
