@@ -59,52 +59,45 @@ Every reference cited in the research paper was independently verified against i
 
 
 Full bibliographic details for all sources are in [`references/references.md`](./references/references.md).
- 
-## Datasets
- 
-See [`datasets/datasets.md`](./datasets/datasets.md) for the full list, including:
-- **ChatLog-Monthly / ChatLog-Daily** — monthly and daily-refreshed ChatGPT response datasets across 21 NLP benchmarks (Tu et al., 2024).
-- **MT-Bench & Chatbot Arena conversation logs** — multi-turn evaluation questions and crowdsourced human preference votes (Zheng et al., 2023).
-- **HELM scenario data** — benchmark scenarios and raw model completions across a broad set of models (Liang et al., 2022).
+
 ## Tools and Libraries
  
 See [`tools/tools.md`](./tools/tools.md) for the full list, including:
 - **Claude, ChatGPT, and Gemini** — major commercial LLM chat products, relevant both as subjects of performance-drift study and as tools for conducting research.
-## GitHub Implementations
- 
-See [`implementations/github-repositories.md`](./implementations/github-repositories.md) for the full list, including:
-- `THU-KEG/ChatLog` — official implementation and dataset repository for ChatLog.
-- `stanford-crfm/helm` — official HELM evaluation framework.
-- `lm-sys/FastChat` — Chatbot Arena and LLM-as-a-judge implementation.
-## Tutorials and Learning Resources
- 
-See [`tools/tools.md`](./tools/tools.md) and [`references/references.md`](./references/references.md) for links to official documentation, benchmark leaderboards, and lecture material relevant to LLM evaluation and drift monitoring.
+
  
 ## Repository Structure
  
 ```
-awesome-llm-performance-drift/
+awesome-Tracking-Performance-Drift-in-LLMs-Across-Successive-Version-Updates/
 ├── README.md
-├── paper/
+├── Paper/
 │   └── AI_Assisted_Research_Paper.pdf
 ├── citation-audit/
 │   └── Citation_Integrity_Audit.pdf
 ├── references/
 │   └── references.md
-├── datasets/
-│   └── datasets.md
+├── Curated Research Papers/
+│   └── Reference paper 1.pdf
+│   └── Reference paper 2.pdf
+│   └── Reference paper 3.pdf
+│   └── Reference paper 4.pdf
+│   └── Reference paper 5.pdf
+│   └── Reference paper 6.pdf
+│   └── Reference paper 7.pdf
+│   └── Reference paper 8.pdf
+│   └── Reference paper 9.pdf
+│   └── Reference paper 10.pdf
+│   └── Reference paper 11.pdf
+│   └── Reference paper 12.pdf
+│   └── Reference paper 13.pdf
 ├── tools/
-│   └── tools.md
-├── implementations/
-│   └── github-repositories.md
-└── LICENSE
+    └── tools.md
+
 ```
  
 ## Contributing
  
 Contributions are welcome. Please open an issue or pull request to suggest a paper, dataset, tool, or implementation. Submissions should include full bibliographic information (authors, title, year, venue) and, where available, a DOI, arXiv ID, or other persistent identifier.
  
-## License
- 
-The curation, organization, and original written content in this repository (including the README and the AI-assisted research paper) are released under the [MIT License](./LICENSE), unless otherwise noted. Linked third-party papers, datasets, and tools remain subject to their own original licenses and terms of use.
  
