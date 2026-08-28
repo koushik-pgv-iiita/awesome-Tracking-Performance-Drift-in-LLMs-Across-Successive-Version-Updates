@@ -68,9 +68,6 @@ See [`datasets/datasets.md`](./datasets/datasets.md) for the full list, includin
  
 See [`tools/tools.md`](./tools/tools.md) for the full list, including:
 - **Claude, ChatGPT, and Gemini** — major commercial LLM chat products, relevant both as subjects of performance-drift study and as tools for conducting research.
-- **HELM (Holistic Evaluation of Language Models)** — open-source multi-metric evaluation framework.
-- **FastChat / Chatbot Arena tooling** — infrastructure for pairwise LLM comparison and Elo-style ranking.
-- **LLM-as-a-judge frameworks** (e.g., MT-Bench harness) — for scalable, automated open-ended response scoring.
 ## GitHub Implementations
  
 See [`implementations/github-repositories.md`](./implementations/github-repositories.md) for the full list, including:
